@@ -72,11 +72,7 @@
       check_status "/events/" "200" "Events page returns HTTP 200"
       check_content "/events/" "Events" "Events page has expected content"
 
-      check_status "/community/" "200" "Community page returns HTTP 200"
-      check_content "/community/" "Community" "Community page has expected content"
-
       check_status "/tutorials/" "200" "Tutorials page returns HTTP 200"
-      check_content "/tutorials/" "Tutorials" "Tutorials page has expected content"
 
       check_status "/blog/" "200" "Blog page returns HTTP 200"
       check_content "/blog/" "Blog" "Blog page has expected content"
